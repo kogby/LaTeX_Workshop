@@ -6,7 +6,7 @@ This repository serves as a resource for students at NTU who want to learn how t
 
 ## Templates
 
-This repository contains LaTeX templates for slides and resumes. These templates have been curated and modified to provide simplicity, flexibility, and completeness. They are designed to be easily refactored, customized, and adapted for various use cases.
+This repository contains LaTeX templates for slides and resumes. I created them by modifying existing templates to suit my requirements. They are designed to be easily refactored, customized, and adapted for various use cases.
 
 #### The template has following Features which I believe is important when making one.
 
