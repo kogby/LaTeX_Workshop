@@ -1,0 +1,36 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{graphicx}
+\begin{document}
+\section*{Figure}
+\begin{figure}[h]% [htbp]
+    \centering % 置中
+    \includegraphics[width=0.5\linewidth]{cat.png} % 圖片路徑
+    \caption{cat} % 圖片標題
+    \label{cat} % 名稱自取
+\end{figure}
+As you can see in Figure \ref{cat}
+
+\section*{Table}
+\begin{table}[h]
+    \centering
+    \begin{minipage}{0.6\textwidth}
+        \centering
+        \begin{equation}
+            \begin{array}{|c|c|}
+                \hline
+                x & f(x) \\
+                \hline
+                1 & 2 \\
+                2 & 3 \\
+                3 & 5 \\
+                4 & 7 \\
+                5 & 11 \\
+                \hline
+            \end{array}
+        \end{equation}
+    \end{minipage}
+    \caption{Math Table}
+    \label{math_table}
+\end{table}
+As you can see in Table \ref{math_table}
+\end{document}

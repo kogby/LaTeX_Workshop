@@ -1,0 +1,66 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{amsmath}% 數學排版功能
+\usepackage{amsfonts}% 額外數學字體
+\usepackage{array}% 數組與表格排版功能
+\usepackage{amssymb}% 額外的數學符號
+\usepackage{bm}% 加粗數學符號，ex:矩陣、向量
+
+\begin{document}
+\section{Basics}
+let $a,b$ are real number, then $a^2 + b^2 = c^2$ 
+% \[ your equation \]
+% $ your equation $
+% \begin{align} your equation \end{align}
+% \begin{equation} your equation \end{equation}
+
+\section{Polynomial}
+\begin{align*}
+    P(x) &= 3x^3 + 2x^2 - 5x + 7 \\
+         &= x^2(3x + 2) - 5x + 7
+\end{align*}
+
+\section{Summation}
+\begin{equation*}
+    \sum_{i=1}^{n} i^2=\frac{n(n + 1)(2n + 1)}{6}
+\end{equation*}
+
+\section{Differential}
+\begin{equation*}
+    f(x)=ax^2+bx+c
+\end{equation*}\\
+\begin{equation*}
+    f^{\prime}(x)=\frac{df(x)}{dx}=\frac{d(ax^2+bx+c)}{dx}=2ax+b 
+\end{equation*}
+
+\section{Integral}
+\begin{equation*}
+    \int_{a}^{x} f^{\prime}(t) dt = f(x)
+\end{equation*}
+
+\section{Matrix}
+\begin{equation*}
+    \left[
+    \begin{array}{lcr}
+        1218 & 2213 & 398 \\
+        4 & 5 & 6 \\
+        7 & 8 & 9 \\
+    \end{array}
+    \right]
+\end{equation*}
+\begin{equation*}
+ \left[
+    \begin{matrix}% 默認都是居中對齊
+        a & b \\
+        c & d \\
+    \end{matrix}
+    \right]
+\end{equation*}
+
+\section{Vector}
+\begin{equation*}
+    \vec{\mathbf{v}} = \begin{bmatrix} 1&2&3    \end{bmatrix}
+\end{equation*}
+\begin{equation*}
+    \vec{\bm{v}} = \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix}
+\end{equation*}
+\end{document}
