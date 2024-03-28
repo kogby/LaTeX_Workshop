@@ -1,0 +1,59 @@
+\documentclass{beamer}
+
+\usetheme{Boadilla}
+% \usecolortheme{seahorse}
+\usecolortheme{dolphin}
+\usefonttheme{serif}
+
+\usepackage{lipsum}
+\usepackage{graphicx,xcolor}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{pgfplots}
+
+% for Chinese
+\usepackage{caption}
+\usepackage{fontspec}               		% 加這個就可以設定字體
+\usepackage[BoldFont, SlantFont]{xeCJK} 	% 讓中英文字體分開設置
+\setCJKmainfont{Noto Sans CJK TC}
+\setCJKmonofont{Noto Serif CJK TC}
+
+\XeTeXlinebreaklocale "zh" %文字間隔
+
+\XeTeXlinebreakskip = 0pt plus 1pt
+
+\renewcommand{\baselinestretch}{1.4}
+
+
+
+\title[Short Title]{Your Title}
+% \subtitle{[Course Code] Presentation}
+\author[xxxx]{Second Title}
+\institute[Group]{Member1, Member2}
+\date{20xx.xx.xx}
+% \titlegraphic{\includegraphics[width=2cm]{images/logo/iiserm_logo.jpg}}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\AtBeginSection[]{ 
+    \begin{frame}{Table of Contents} 
+        \tableofcontents[currentsection] 
+    \end{frame} }
+
+\section{Section 1}
+\input{segments/1_a}
+
+\section{Section 2}
+\input{segments/2_b}
+
+\section{Section 3}
+\input{segments/3_c}
+
+\section{Section 4}
+\input{segments/4_d}
+
+
+\end{document}
