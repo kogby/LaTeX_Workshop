@@ -3,6 +3,7 @@
 Hi there
 
 This repository serves as a resource for students at NTU who want to learn how to use LaTeX effectively, especially beginners or those looking for templates. This workshop covers the basics of formatting, layouts, formulas, lists, tables, citations, and more.
+Record: more than 140 students enrolled in this workshop.
 
 ## Templates
 
