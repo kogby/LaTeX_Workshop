@@ -1,31 +1,34 @@
-# LaTeX Workshop
+## CJ LaTeX Resume
 
 Hi there
 
-This repository serves as a resource for students at NTU who want to learn how to use LaTeX effectively, especially beginners or those looking for templates. This workshop covers the basics of formatting, layouts, formulas, lists, tables, citations, and more.
+This repository serves as both a **resume template** and **workshop material** for students who want to learn how to use LaTeX effectively, especially beginners or those looking for templates. This workshop covers the basics of formatting, layouts, formulas, lists, tables, citations, and more.
 
-Record: more than 140 students enrolled in this workshop.
+This template is used as teaching material for the LaTeX Workshop held at NTU, which had more than 140 students enrolled.
 
 ## Templates
 
-This repository contains LaTeX templates for slides and resumes. I created them by modifying existing templates to suit my requirements. They are designed to be easily refactored, customized, and adapted for various use cases.
+This repository contains LaTeX templates for resumes and slides, customized to meet specific needs while remaining adaptable and easy to modify.
 
-#### The template has following Features which I believe is important when making one.
+### Template Features
 
-- **Simple :** Modify and rearrange content to suit your needs with ease.
-- **Clean :** Clean layouts for readability and professional presentation.
-- **Comprehensive :** General without too much detail.
+The resume template includes key features to streamline your design:
+
+- **Simple:** Easily modify and rearrange content to suit your specific needs.
+- **Clean:** A minimalist layout for enhanced readability and professional presentation.
+- **Comprehensive:** General-purpose design without overcomplicating the details.
 
 ## Slides
 
-To view animated slides, visit [this link](https://www.canva.com/design/DAGAP0oWhhU/6Xs2c_NBiFsJuBU0S0DMdA/view?utm_content=DAGAP0oWhhU&utm_campaign=designshare&utm_medium=link&utm_source=editor).
+Explore the animated slides used in the workshop [here](https://www.canva.com/design/DAGAP0oWhhU/6Xs2c_NBiFsJuBU0S0DMdA/view?utm_content=DAGAP0oWhhU&utm_campaign=designshare&utm_medium=link&utm_source=editor).
 
 ## Acknowledgments
 
-Special thanks to Abner for contributing to this workshop.
+Special thanks to Abner for his valuable contributions to this workshop, and to all who helped shape this resource.
 
-Feel free to explore, and use this repository to enhance your LaTeX experience
+## Poster
 
-Happy LaTeXing
+<img src="Poster.jpg" alt="LaTeX Workshop Poster" width="50%">
 
-<img src="Poster.jpg" width="50%"> <br>
+Explore, customize, and create your own resume using this template.  
+**Happy LaTeXing!**
